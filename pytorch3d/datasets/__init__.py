@@ -6,7 +6,7 @@
 
 from .r2n2 import R2N2, BlenderCamera, collate_batched_R2N2, render_cubified_voxels
 from .shapenet import ShapeNetCore
-from .utils import collate_batched_meshes
+from .utils import collate_batched_meshes, collate_batched_meshes_tyluan
 
 
 __all__ = [k for k in globals().keys() if not k.startswith("_")]
